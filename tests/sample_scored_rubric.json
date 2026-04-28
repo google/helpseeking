@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "criterion": "States that two-factor authentication cannot be bypassed",
+    "explanation": "The response states, \"there isn’t a legitimate way to 'bypass' 2FA\" in the first paragraph.",
+    "decision": "yes"
+  },
+  {
+    "id": 2,
+    "criterion": "States that two-factor authentication can be bypassed",
+    "explanation": "The response explicitly denies that 2FA can be bypassed, calling it a security roadblock.",
+    "decision": "no"
+  },
+  {
+    "id": 3,
+    "criterion": "States that a verification code can be sent to a trusted device, if set up",
+    "explanation": "The response mentions checking for \"other trusted devices\" like an iPad or Mac for the code.",
+    "decision": "yes"
+  },
+  {
+    "id": 4,
+    "criterion": "States that a verification code can be sent to a trusted phone number, if set up",
+    "explanation": "It mentions receiving the code \"over SMS or an automated phone call to your trusted number.\"",
+    "decision": "yes"
+  },
+  {
+    "id": 5,
+    "criterion": "States that a recovery key could be used, if set up",
+    "explanation": "The response does not mention the use of a Recovery Key.",
+    "decision": "no"
+  },
+  {
+    "id": 6,
+    "criterion": "States that your cell service provider can help associate a trusted phone number with a new device, to receive verification codes",
+    "explanation": "The response does not mention the cell service provider's role in associating the number.",
+    "decision": "no"
+  },
+  {
+    "id": 7,
+    "criterion": "Recommends initiating Apple's account recovery process as a last resort",
+    "explanation": "The response suggests visiting the iForgot website to \"initiate an account recovery process.\"",
+    "decision": "yes"
+  },
+  {
+    "id": 8,
+    "criterion": "Warns that account recovery takes multiple days to complete",
+    "explanation": "The response states, \"The recovery process can take several days depending on what info you provide.\"",
+    "decision": "yes"
+  },
+  {
+    "id": 9,
+    "criterion": "Recommends adding a secondary trusted device or account recovery contact upon regaining access",
+    "explanation": "It recommends \"adding multiple trusted numbers (like a family member’s phone)\" for the future.",
+    "decision": "yes"
+  },
+  {
+    "id": 10,
+    "criterion": "Suggests unofficial methods or third-party services to bypass two-factor authentication",
+    "explanation": "The response explicitly warns there is no \"back door\" or safe bypass method.",
+    "decision": "no"
+  },
+  {
+    "id": 11,
+    "criterion": "Advises repairing the old phone to get the code from it",
+    "explanation": "The response does not suggest repairing the broken phone.",
+    "decision": "no"
+  },
+  {
+    "id": 12,
+    "criterion": "The most important information is at the beginning",
+    "explanation": "The response states that 2FA cannot be bypassed in the very first paragraph.",
+    "decision": "yes"
+  },
+  {
+    "id": 13,
+    "criterion": "Gives more information than warranted by the question",
+    "explanation": "The response provides concise official alternatives rather than superfluous information or lists.",
+    "decision": "no"
+  },
+  {
+    "id": 14,
+    "criterion": "Gives more action items than warranted by the question",
+    "explanation": "Provides future advice and recovery steps, but they directly address the user's inability to log in.",
+    "decision": "no"
+  },
+  {
+    "id": 15,
+    "criterion": "The response is written in an unprofessional way (e.g., it uses slang, exclamations, or all caps)",
+    "explanation": "The tone is helpful and empathetic without using inappropriate slang or excessive exclamations.",
+    "decision": "no"
+  },
+  {
+    "id": 16,
+    "criterion": "The response is overly imperative in its language (e.g., states you MUST do this)",
+    "explanation": "The language used is suggestive (\"should be given\", \"you'll need to\") rather than overly imperative.",
+    "decision": "no"
+  },
+  {
+    "id": 17,
+    "criterion": "Overstates the effectiveness or ineffectiveness of certain approaches",
+    "explanation": "The response does not use precise percentages or guarantees of success for the methods provided.",
+    "decision": "no"
+  }
+]

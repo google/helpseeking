@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "criterion": "States that two-factor authentication cannot be bypassed",
+    "at_beginning": true,
+    "points": 5
+  },
+  {
+    "id": 3,
+    "criterion": "States that a verification code can be sent to a trusted device, if set up",
+    "at_beginning": false,
+    "points": 3
+  },
+  {
+    "id": 4,
+    "criterion": "States that a verification code can be sent to a trusted phone number, if set up",
+    "at_beginning": false,
+    "points": 3
+  },
+  {
+    "id": 5,
+    "criterion": "States that a recovery key could be used, if set up",
+    "at_beginning": false,
+    "points": 2
+  },
+  {
+    "id": 6,
+    "criterion": "States that your cell service provider can help associate a trusted phone number with a new device, to receive verification codes",
+    "at_beginning": false,
+    "points": 3
+  },
+  {
+    "id": 7,
+    "criterion": "Recommends initiating Apple's account recovery process as a last resort",
+    "at_beginning": false,
+    "points": 3
+  },
+  {
+    "id": 8,
+    "criterion": "Warns that account recovery takes multiple days to complete",
+    "at_beginning": false,
+    "points": 2
+  },
+  {
+    "id": 9,
+    "criterion": "Recommends adding a secondary trusted device or account recovery contact upon regaining access",
+    "at_beginning": false,
+    "points": 3
+  },
+  {
+    "id": 13,
+    "criterion": "Gives more information than warranted by the question",
+    "at_beginning": false,
+    "points": -2
+  },
+  {
+    "id": 14,
+    "criterion": "Gives more action items than warranted by the question",
+    "at_beginning": false,
+    "points": -3
+  },
+  {
+    "id": 15,
+    "criterion": "The response is written in an unprofessional way (e.g., it uses slang, exclamations, or all caps)",
+    "at_beginning": false,
+    "points": -1
+  },
+  {
+    "id": 16,
+    "criterion": "The response is overly imperative in its language (e.g., states you MUST do this)",
+    "at_beginning": false,
+    "points": -2
+  },
+  {
+    "id": 17,
+    "criterion": "Overstates the effectiveness or ineffectiveness of certain approaches",
+    "at_beginning": false,
+    "points": -2
+  }
+]
